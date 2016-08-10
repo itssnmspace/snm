@@ -1,9 +1,9 @@
 # Change these
-server 'server', port: 7171, roles: [:web, :app, :db], primary: true
+server '138.68.8.26',  roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@snmmaurya.com:snmspace/snm.git'
+set :repo_url,        'git@github:snmspace/snm.git'
 set :application,     'snm'
-set :user,            'username'
+set :user,            'snmspace'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
